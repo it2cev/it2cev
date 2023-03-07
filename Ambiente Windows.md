@@ -20,11 +20,15 @@ Se não aparecer, desligue o PowerShell e abra novamente, como Administrador.
 ## Instalar as Ferramentas
 
 ### Visual Studio Code
-
+```powershell
+https://code.visualstudio.com/Download
+```
 Visual Studio Code é uma interface de desenvolvimento e nos ajudará a escrever nossos programas
 
 ### Google Chrome
-
+```powershell
+https://www.google.com/intl/pt-BR/chrome/
+```
 O nosso navegador padrão de desenvolvimento será o Google Chrome, pois ele é um browser moderno e que nos ajudará a desenvolver com ferramentas próprias do navegador. Além disso, o motor que roda JavaScript no Chrome é o praticamente o mesmo motor que usaremos na nossa máquina local.
 
 ### NodeJS
