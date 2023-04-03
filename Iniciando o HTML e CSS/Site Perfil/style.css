@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+   margin:  0;
+   padding: 0;
+   border: 0;
+}
+  body {
+     background-color: #252525;
+     
+   }
+   header {
+       padding: 32px;
+       border-bottom: 1px solid #333;
+       background-color: rgba(0, 0,0,0.1);
+   }
+   header div {
+       text-align: center; /* Alinhamento no meio do header */
+   }
+   header div a {
+         color: white; /* a cor do texto */
+         font-size: 20px; /* tamanho da fonte */
+         line-height: 30px; /* espaçamento da linha do texto */
+         margin:  16px; /* espaçamento entre os textos */
+         text-decoration: none; /* retirar decoração do texto */
+         font-family: 'Roboto', sans-serif; /* a fonte escolhida pro menu */
+   }
+header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
+   color: green; /* mudar para cor verde*/
+   transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+}
