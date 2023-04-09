@@ -6,11 +6,12 @@
 }
   body {
      background-color: #252525;
+     color: white;
      
    }
    header {
        padding: 32px;
-       border-bottom: 1px solid #333;
+       border-bottom: 1px solid #6e0342; /*  adiciona uma cor a parte de  baixo da borda da imagem*/
        background-color: rgba(0, 0,0,0.1);
    }
    header div {
@@ -25,6 +26,39 @@
          font-family: 'Roboto', sans-serif; /* a fonte escolhida pro menu */
    }
 header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
-   color: green; /* mudar para cor verde*/
+   color: #6e0342; /* mudar para cor verde*/
    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+}
+
+#box {
+   text-align: center; /* Alinhamento no meio do body */
+   padding: 32px;  /* distancia dos   outros elementos  */
+   font-family: 'Roboto', sans-serif; /* a fonte escolhida pro menu */
+}
+
+#box img {
+   border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
+   border: 5px  solid #6e0342 ; /*  adiciona uma cor a borda da imagem*/
+   margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
+   
+}
+
+#box h1 {
+   font-size: 42px; /* tamanho da fonte */
+   line-height: 52px; /* espaçamento da linha do texto */
+   font-weight: bold; /* tipo da fonte */
+}
+#box h2 {
+   font-size: 24px; /* tamanho da fonte */
+   line-height: 34px; /* espaçamento da linha do texto */
+   font-weight: normal;   /* tipo da fonte */
+   margin-top: 8px; /*  distancia da margem  superior dos outros elementos*/
+   opacity: 0.8;  /*  transparencia do elemento*/
+}  
+
+#box p {
+   max-width: 500px;  /* tamanho maximo do  elemento na largura */
+   margin: 32px auto; /*distancia das margens   dos outros elementos*/
+   font-size: 24px;  /* tamanho da fonte */
+   line-height: 34px; /* espaçamento da linha do texto */
 }
