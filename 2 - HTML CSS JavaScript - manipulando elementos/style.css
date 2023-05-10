@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+ :root{  /* inciando a variavel*/
+  --subcor: #57a615; /* nomeando a variavel de --subcor e guardadno uma cor nela.*/
+ } /* Fechando a o bloco da variavel root.*/
+*{ margin:0;
+   padding: 0;
+   border: 0;     
+   font-family: 'Roboto', sans-serif; 
+   color: white;
+   text-decoration: none;
+}
+  body  {
+    background-color: #252525;
+  }
+  header {
+    padding: 32px;
+    border-bottom: 3px solid var(--subcor);
+    background-color: rgba(0, 0,0, 0.1);
+  }
+  .links  {
+    text-align: center;
+  }
+
+  .links a {
+    color:white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    
+  }
+  .links a:hover {
+    color: var(--subcor);
+    transition: 600ms;
+    font-size: 23px;
+  }
+  #box  {
+    text-align: center;
+    padding-top: 23px;
+  }
+
+  #box img {
+    border-radius: 50%;
+    margin-bottom: 32px;
+    
+  }
+  #box img:hover {
+    transition: 700ms;
+    border-top: 3px solid var(--subcor);
+    border-bottom: 3px solid var(--subcor);
+    
+  }
+  #box h1   {
+    padding: 4px;
+  }
+
+  #box h2   {
+    padding: 10px;
+}
+  #box p:hover {
+    font-size: 23px;
+  }
+
+  #box  a {
+    color: var(--subcor);
+    transition: 600ms; 
+  }
+
+  #linksFooter  {
+    padding-top: 32px;
+  }
+
+  #linksFooter a {
+   margin-top: 32px;
+
+    
+  }
+  #linksFooter a:hover {
+    border:3px solid var(--subcor) ;
+  }
