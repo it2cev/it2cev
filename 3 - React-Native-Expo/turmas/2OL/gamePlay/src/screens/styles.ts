@@ -4,14 +4,14 @@ export const styles = StyleSheet.create({
      
         container:{
             flex:1,
-            backgroundColor:'purple',
             justifyContent:'center',
             alignItems:'center'
         },
-        input:{
-            height:50,
-            width:200,
-            borderBottomWidth:2
-        }
+        image:{
+            height:360,
+            width:"100%"
+        },
+        content:{},
+        title:{}
 
 })

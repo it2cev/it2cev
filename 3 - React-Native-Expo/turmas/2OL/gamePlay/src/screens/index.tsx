@@ -1,19 +1,25 @@
-import React, {useState} from "react";
-import {View,Text,TextInput} from 'react-native'
-import {styles} from './styles'
-export  function SignIn() {
 
-  const [text,setText] = useState ("Você não digitou nada ainda");
+import { StyleSheet, Text, View,TextInput,Image,StatusBar } from 'react-native';
+import { styles } from './styles';  
+import { useState } from 'react';
+
+import IllustrationImg from '../../src/assets/illustration.png'
+
+export  function SignIn() {
+   
 
   return (
-     <View style={styles.container}>
-       <Text> Ola mundo </Text>
-
-       <TextInput style={styles.input} onChangeText={setText}/>
-
-       <Text> 
-        Você digitou: {text}
-       </Text>
-     </View>
+    <View style={styles.container}>
+        <Image source={IllustrationImg} style={styles.image} resizeMode='stretch'/>
+        <View style={styles.content}>
+          <Text style={styles.title}>
+             Organize {`\n`}
+             Suas Jogatinas{`\n`}
+             facilmente
+          </Text>
+        </View>
+    </View>
   );
 }
+
+
