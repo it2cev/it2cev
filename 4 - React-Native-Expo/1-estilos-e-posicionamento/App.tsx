@@ -1,36 +1,11 @@
-import { StyleSheet, View } from 'react-native';
+import {View} from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <View style={styles.box} />
-      <View style={styles.box2} />
-      <View style={styles.box3} />
-    </View>
-  );
+
+export default function App (){
+
+    return(
+        <View style={{width:200,height:200,backgroundColor:'black',flex:1}}>
+            <View style={{width:200,height:200,backgroundColor:'pink'}}/>
+        </View>
+    )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1, 
-    backgroundColor: '#f0f0f0',
-  },
-  box: {
-    flex:1,
-    width: 100,
-    height: 100,
-    backgroundColor: 'blue',
-  },
-  box2: {
-    flex:2,
-    width: 100,
-    height: 100,
-    backgroundColor: 'red',
-  },
-  box3: {
-    flex:3,
-    width: 100,
-    height: 100,
-    backgroundColor: 'green',
-  },
-});
