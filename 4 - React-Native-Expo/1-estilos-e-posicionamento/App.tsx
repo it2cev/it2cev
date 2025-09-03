@@ -13,9 +13,8 @@ export default function App (){
 }
 
 const styles = StyleSheet.create({
-    container:{flex:1,width:200,height:200,backgroundColor:'black'},
-    box1:{width:200,height:200,backgroundColor:'white'},
-    box2:{width:200,height:200,backgroundColor:'red'},
-    box3:{width:200,height:200,backgroundColor:'yellow'},
+    container:{flex:1,backgroundColor:'black',flexDirection:'column',justifyContent:'center'},
+    box1:{width:100,height:100,backgroundColor:'blue'},
+    box2:{width:100,height:100,backgroundColor:'red'},
+    box3:{width:100,height:100,backgroundColor:'yellow'},
 })
-
