@@ -1,0 +1,21 @@
+{
+  "name": "it2cev",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000i\u0000n\u0000t\u00002\u0000c\u0000e\u0000v\u0000 \u0000 \u0000ddddd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it2cev/it2cev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/it2cev/it2cev/issues"
+  },
+  "homepage": "https://github.com/it2cev/it2cev#readme"
+}
